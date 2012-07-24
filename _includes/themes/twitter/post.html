@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>{{ page.title }} <small>Supporting tagline</small></h1>
+  <h1>{{ page.title }} {% if page.tagline  %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 </div>
 
 <div class="row">
@@ -36,5 +36,10 @@
     {% include JB/tags_list %}
     </ul>
   {% endunless %}  
-  </div>
+
+	<hr>
+	<h4> Table of Contents </h4>
+	<ul id="toc"></ul>
+
+</div>
 </div>
