@@ -28,13 +28,13 @@ Instead of building from scratch, it is generally a good idea to just make use o
 
 The steps to create a Jekyll site using Jekyll Bootstrap and have it hosted on GitHub Pages are listed below:
 
-		$ git clone https://github.com/plusjade/jekyll-bootstrap.git <username>.github.com
-		$ cd <username>.github.com
-		$ git config user.name "Your Name"
-		$ git config user.email "your_email@youremail.com"
-		$ git config helper.credential osxkeychain
-		$ git remote set-url origin https://github.com/<username>/<username>.github.com.git
-		$ git push origin master
+	$ git clone https://github.com/plusjade/jekyll-bootstrap.git <username>.github.com
+	$ cd <username>.github.com
+	$ git config user.name "Your Name"
+	$ git config user.email "your_email@youremail.com"
+	$ git config helper.credential osxkeychain
+	$ git remote set-url origin https://github.com/<username>/<username>.github.com.git
+	$ git push origin master
 
 Wait for about 10 minutes or so, and the site will be live on http://&lt;username&gt;.github.com. Subsequent additions and changes are as simple as committing and pushing them to the GitHub repository.
 
