@@ -22,9 +22,12 @@ Use Homebrew and save all the tears.
 	$ export PATH=$PATH:/usr/local/Cellar/mysql/<version>/bin
 	$ mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
 
-# Setup Root User #
+# Start MySQL Server #
 
 	$ /usr/local/Cellar/mysql/<version>/support-files/mysql.server start
+
+# Setup Root User #
+
 	$ mysqladmin -u root password 'password'
 
 # Create Database #
