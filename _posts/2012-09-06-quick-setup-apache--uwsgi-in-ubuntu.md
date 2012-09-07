@@ -12,13 +12,24 @@ tags: [apache, python, ubuntu, uwsgi]
 Just a quick reference guide showing the steps and commands for configuring uWSGI to run behind Apache. 
 
 
-## Install Apache
+## Install and Configure Apache
 
 A fresh install of Ubuntu Server doesn't come with Apache installed by default, which is fair enough because we may want to use another web server. Plus Apache can be easily installed by issuing:
 
-	sudo apt-get install apache2 apache2-threaded-dev 
+	$ sudo apt-get install apache2 apache2-threaded-dev
 
 * NOTE: The apache2-threaded-dev is required since it contains the apxs tool that is required to compiling the mod_uwsgi module.
+
+Some Apache default configurations that you may wish to change, depending on whether it is used for development/production:
+
+	$ sudo vim /etc/apache2/conf.d/security
+
+		...
+
+		ServerTokens Prod
+		ServerSignature Off
+
+		...
 
 
 ## Compile mod_uwsgi Module
@@ -60,4 +71,5 @@ Now we are ready to proceed with setting up the development environment for crea
 
 ## Reference
 
+* [Install Apache on Ubuntu 10.04](http://linuxbasiccommand.blogspot.com/2011/03/install-apache-on-ubuntu-1004.html)
 * [Quickstart - uWSGI](http://projects.unbit.it/uwsgi/wiki/Quickstart)
