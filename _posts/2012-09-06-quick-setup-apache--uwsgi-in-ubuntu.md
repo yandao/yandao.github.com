@@ -61,7 +61,7 @@ Restart Apache
 
 	$ sudo service apache2 restart
 
-Apache should now run with mod_uwsgi enabled. From the Apache configuration above, any requests that comes through &lt;domain_name&gt;/bin will be handled by uWSGI, and passed to the WSGI application that listens on **TCP socket 127.0.0.1 on port 5000**.
+Apache should now run with mod_uwsgi enabled. From the Apache configuration above, any requests that come through &lt;domain_name&gt;/bin will be handled by uWSGI, and passed to the WSGI application that listens on **TCP socket 127.0.0.1 on port 5000**.
 
 
 ## Done
@@ -69,7 +69,7 @@ Apache should now run with mod_uwsgi enabled. From the Apache configuration abov
 Now we are ready to proceed with setting up the development environment for creating Python-based web applications.
 
 
-## Reference
+## References
 
 * [Install Apache on Ubuntu 10.04](http://linuxbasiccommand.blogspot.com/2011/03/install-apache-on-ubuntu-1004.html)
 * [Quickstart - uWSGI](http://projects.unbit.it/uwsgi/wiki/Quickstart)
