@@ -19,6 +19,12 @@ plus their dependencies.
 
 _NOTE_: There may be [some issues](http://stackoverflow.com/questions/9434002/how-to-solve-ruby-installation-is-missing-psych-error) with installing version 1.9.3 due to the change in the default YAML parser. I encountered this in my CentOS 5.7 setup and couldn't make it work despite trying all the different solutions provided by other users. Ended up using 1.8.7 instead.
 
+_UPDATE (22 Oct 2012)_: Found the fix!
+
+	$ rvm pkg install libyaml
+	$ rvm pkg install readline
+
+	$ rvm install 1.9.3 --with-readline-dir=~/.rvm/usr --with-libyaml-dir=~/.rvm/usr
 
 ## Initial Configuration
 
