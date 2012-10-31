@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick Setup Apache + uWSGI in Ubuntu"
+title: "Quick Setup Apache + uWSGI on Ubuntu"
 description: ""
 category: configuration
 tags: [apache, python, ubuntu, uwsgi]
