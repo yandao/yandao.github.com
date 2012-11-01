@@ -16,7 +16,7 @@ The setup here is done on an Ubuntu 12.04 server, but it should apply for slight
 
 ## Install Java JDK ##
 
-A fresh installation of an Ubuntu server do not include Java JDK by default due to some licensing issue with Oracle (I will refrain from making any comments here). The official method of installing Java JDK is by running the binaries provided from the [Oracle Java website](http://www.oracle.com/technetwork/java/javase/downloads/index.html)... Thankfully, there are always some [3rd party efforts](http://www.webupd8.org/p/ubuntu-ppas-by-webupd8.html) that make it possible to install Java JDK via apt-get. With all the reports on security vulnerabilities on Java 6, the recommended solution nowadays is to install Java 7 directly.
+A fresh installation of an Ubuntu server does not include Java JDK by default due to some licensing issue with Oracle (I will refrain from making any comments here). The official method of installing Java JDK is by running the binaries provided from the [Oracle Java website](http://www.oracle.com/technetwork/java/javase/downloads/index.html)... Thankfully, there are always some [3rd party efforts](http://www.webupd8.org/p/ubuntu-ppas-by-webupd8.html) that make it possible to install Java JDK via apt-get. With all the reports on security vulnerabilities on Java 6, the recommended solution nowadays is to install Java 7 directly.
 
 ### The Steps ###
 
@@ -81,7 +81,7 @@ The reason why GlassFish is always so slow when starting is because it tries to 
 
 		...
 
-Now GlassFish will start up in blazing fast time, and the Admin Console will be much responsive too.
+Now GlassFish will start up in blazing fast time, and the Admin Console will be much more responsive too.
 
 ### Change Admin password ###
 
@@ -112,12 +112,12 @@ and watch how blazing fast it starts up without the auto-update running in the b
 
 If you wish to set up SSL connection on GlassFish, follow this section. As with other servers, you will need to provide:
 
-1. SSL certificate
+1. An SSL certificate
 2. The private key that is used to sign the certificate
 
 ### Create Self-Signed SSL Certificate ###
 
-You can pay some trusted Certificate Authority (CA) to create those two items. Otherwise, a self-signed certificate will probably suffice. We can generate a self-signed SSL certificate using [OpenSSL](http://www.openssl.org) by following these steps ([as outlined here](https://devcenter.heroku.com/articles/ssl-certificate-self)):
+You can pay some trusted Certificate Authority (CA) to create those two items. Otherwise, a self-signed certificate will probably suffice, depending on whether the client applications require the certificates to be issued by a trusted CA or not. We can generate a self-signed SSL certificate using [OpenSSL](http://www.openssl.org) by following these steps ([as outlined here](https://devcenter.heroku.com/articles/ssl-certificate-self)):
 
 OpenSSL should already be bundled in on *nix systems. To check:
 
