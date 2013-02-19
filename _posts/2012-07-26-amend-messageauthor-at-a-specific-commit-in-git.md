@@ -8,7 +8,7 @@ tags: [git]
 {% include JB/setup %}
 
 
-## The Skinny ##
+## Introduction ##
 
 As a Mercurial user trying to learn the ropes of Git, especially since this site uses Git for version control, there are bound to be mistakes here and there. Thankfully, Git provides the means to go back in history and re-write it using the **rebase** command.
 

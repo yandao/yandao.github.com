@@ -7,7 +7,7 @@ tags: [rails, rails3, rest]
 ---
 {% include JB/setup %}
 
-# The Skinny #
+# Introduction #
 
 This post shows an example on how to create a simple Rails application that access resources from a MySQL database.
 

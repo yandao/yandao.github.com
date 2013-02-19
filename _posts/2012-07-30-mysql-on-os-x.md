@@ -7,7 +7,7 @@ tags: [mysql]
 ---
 {% include JB/setup %}
 
-# The Skinny #
+# Introduction #
 
 Getting up and running with MySQL on OS X for development purposes.
 

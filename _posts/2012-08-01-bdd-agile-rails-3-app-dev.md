@@ -7,7 +7,7 @@ tags: [agile, bdd, rails, best-practice]
 ---
 {% include JB/setup %}
 
-# The Skinny #
+# Introduction #
 
 Trying to consolidate the best practices for creating a Rails 3 application, in order to produce application that is as clean and maintainable as possible.
 

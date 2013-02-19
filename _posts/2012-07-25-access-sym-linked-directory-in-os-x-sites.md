@@ -8,7 +8,7 @@ tags: [osx, apache, symlink]
 {% include JB/setup %}
 
 
-# The Skinny #
+# Introduction #
 
 Say you have a bunch of static HTML pages generated using Sphinx, Jekyll etc. Whenever the contents are updated, instead of having to copy them over to the **~/Sites** directory, it might be a good idea to just create a symbolic link at **~/Sites** and pointing it at the output directory of your Sphinx/Jekyll project directory. 
 
