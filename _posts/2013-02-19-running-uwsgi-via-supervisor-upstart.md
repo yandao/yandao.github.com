@@ -30,7 +30,7 @@ Supervisor may be installed directly as a system process via apt-get, or install
 Based on the [documentation](http://supervisord.org/installing.html#creating-a-configuration-file), create the configuration file by following these steps:
 
 	$ echo_supervisord_conf
-	$ sudo echo_supervisord_conf > /etc/supervisord.conf
+	# echo_supervisord_conf > /etc/supervisord.conf
 
 Add the uWSGI Emperor process to the configuration file:
 
