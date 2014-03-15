@@ -3,7 +3,7 @@ layout: post
 title: "vi - Convert tabs to spaces"
 description: ""
 category: quick tips
-tags: [vi, Vim]
+tags: [vi]
 ---
 {% include JB/setup %}
 
