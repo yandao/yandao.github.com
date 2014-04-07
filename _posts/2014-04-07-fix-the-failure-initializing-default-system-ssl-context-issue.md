@@ -3,7 +3,7 @@ layout: post
 title: "Fix the \"Failure Initializing Default System SSL Context\" Issue"
 description: ""
 category: 
-tags: []
+tags: [java, gradle]
 ---
 {% include JB/setup %}
 
