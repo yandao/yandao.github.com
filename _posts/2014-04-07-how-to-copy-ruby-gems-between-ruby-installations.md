@@ -2,7 +2,7 @@
 layout: post
 title: "How to Copy Ruby Gems between Ruby Installations"
 description: ""
-category: 
+category: quick tips
 tags: [ruby]
 ---
 {% include JB/setup %}
