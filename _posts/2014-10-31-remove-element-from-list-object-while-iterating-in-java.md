@@ -2,7 +2,7 @@
 layout: post
 title: "Remove element from List object while iterating in Java"
 description: ""
-category: tutorial
+category: quick tips
 tags: [java]
 ---
 {% include JB/setup %}
