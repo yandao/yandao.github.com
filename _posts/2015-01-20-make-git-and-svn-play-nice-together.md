@@ -65,6 +65,20 @@ Now we can push the changes to the SVN server.
 NOTE: --username switch may be optional in some cases.
 
 
+## Create a new remote branch (applicable to tags as well)
+
+Firstly, copy trunk to the new branch.
+
+    $ svn cp http://<svn_url>/trunk http://<svn_url>/branches/<branch_name> -m "Created branch <branch_name>"
+
+The new branch will be created, containing the copy of trunk. Note the revision number.
+
+    $ git svn fetch -r <rev_number>
+    $ git checkout -b <branch_name> remotes/origin/<branch_name>
+
+Now we have created a new branch and have our local repository synced to it as well.
+
+
 ## References
 
 * [Git and Subversion](http://git-scm.com/book/en/v1/Git-and-Other-Systems-Git-and-Subversion)
