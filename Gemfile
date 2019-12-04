@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem 'rdiscount'
+gem 'kramdown'
 gem 'jekyll', ">= 3.6.3"
