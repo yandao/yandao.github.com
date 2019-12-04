@@ -1,6 +1,4 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
 gem 'rdiscount'
-gem 'jekyll'
+gem 'jekyll', ">= 3.6.3"
